@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-layer {
+  background: url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366?fit=crop&w=1500&q=80') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar {
+  background-color: rgba(0, 71, 171, 0.9);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.login-container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  z-index: 2;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0047AB;
+  margin-bottom: 25px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #0047AB, #D4AF37);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 14px;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #444;
+}
+
+.contact {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #0047AB;
+}
+
+.logo-en {
+  font-size: 18px;
+  color: #888;
+  display: block;
+  margin-top: 5px;
+}
+
+.logo-box {
+  border: 2px dashed #D4AF37;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0047AB;
+}
+
+.logo-en {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.logo-decoration {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #D4AF37;
+}
